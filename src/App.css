@@ -1,22 +1,46 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.resultCard {
+  width: 600px;
+  height: 375px;
+  background-color: #228b22;
+  border-radius: 15px;
   color: white;
+  position: relative;
+  margin: 10px;
 }
-
-.App-link {
-  color: #09d3ac;
+.companyName {
+  position: absolute;
+  right: 10%;
+}
+.chipImg {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  width: 20%;
+  height: 23%;
+}
+.cardNumber {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  font-size: 25px;
+}
+.validThru {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  font-size: 25px;
+}
+.masterCard {
+  position: absolute;
+  left: 66%;
+  top: 53%;
+}
+.ownerName {
+  position: absolute;
+  left: 7%;
+  top: 70%;
+  font-size: 25px;
+}
+.UserInput {
+  margin-left: 30px;
 }
